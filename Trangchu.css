@@ -7,9 +7,15 @@
 .nav {
     background-color: #74b9ff;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    align-items: center;
     height: 50px;
     width: 100%;
+}
+.nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e74c3c;
 }
 
 .nav-left {
@@ -86,10 +92,31 @@
 .nature{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    justify-content: center;
+    width: 420px;
     margin-top: 20px;
+    height: 600px;
+    background-color: #2ecc71;
+    text-align: center;
 }
+.natury{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-top: 20px;
+    height: 600px;
+    background-color: #e74c3c;
+    text-align: center;
+}
+.natural{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-top: 20px;
+    height: 600px;
+    background-color: #1abc9c;
+    text-align: center;
+}
+
 .cha{
     display: flex;
     justify-content: space-between;
