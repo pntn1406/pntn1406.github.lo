@@ -7,16 +7,24 @@
 .nav{
     background-color: whitesmoke;
     display: flex;
-    justify-content: space-between;
     height: 50px;
-}
-.centre{
-    width: 80%;
-}
-.right{
-    width: 5%;
-    line-height: 30px;
-    color: white;
     text-align: center;
-    align-items: 80%;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+    height: 500px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav a:hover{
+    color: #636e72;
+    font-family: 'Montserrat', sans-serif;
 }
