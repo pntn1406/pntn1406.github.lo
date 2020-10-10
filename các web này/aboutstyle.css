@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: whitesmoke;
+    display: flex;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav a:hover{
+    color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
