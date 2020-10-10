@@ -1,0 +1,24 @@
+.nav {
+    background-color: #74b9ff;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #e74c3c;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+.vd1{
+    width:50px ;
+    
+}
+.vd2{
+    width: 50px;
+}
