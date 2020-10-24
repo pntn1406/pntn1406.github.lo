@@ -4,18 +4,22 @@
     box-sizing: border-box;
 }
 
-.nav {
-    background-color: #74b9ff;
+
+.nav{
+    background-color: whitesmoke;
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
     height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
     width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
-.nav a{
-    margin-left: 20px;
+.nav :hover {
     text-decoration: none;
-    color: #e74c3c;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-left {
