@@ -1,9 +1,8 @@
-* {
-    margin: 0px;
-    padding: 0px;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
 
 .nav{
     background-color: whitesmoke;
@@ -14,26 +13,18 @@
     justify-content: space-around;
     position: fixed;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
 }
-.nav :hover {
+
+.nav a{
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
-
-.nav-left {
-    width: 80%;
-    text-align: center;
-    align-items: center;
-    display: flex;
+.nav a:hover{
+    color: #636e72;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.nav-right {
-    width: 5%;
-    text-align: center;
-    align-items: center;
-}
 /* 
 .img-box {
     width: 50px;
@@ -41,9 +32,7 @@
 
 } */
 
-.nav-left a {
-    margin: 0px 10px;
-}
+
 /* 
 #cart {
     background-color: #ffeaa7;

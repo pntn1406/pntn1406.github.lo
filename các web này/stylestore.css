@@ -28,3 +28,13 @@ img{
     color: #636e72;
     font-family: 'Montserrat', sans-serif;
 }
+.cart-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* sytle do anh hiếu đẹp trai viết  */
+.img{
+    width: 100%;
+    height: 100%;
+}
