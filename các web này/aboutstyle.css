@@ -23,3 +23,29 @@
     color: pink;
     font-family: 'Montserrat', sans-serif;
 }
+.PNTN{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+    height: 600px;
+    background-color: #2f3640;
+    text-align: center;
+}
+.PTn{
+    width: 300px;
+}
+.NKL{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+    height: 600px;
+    background-color: #81ecec;
+    text-align: center;
+}
+.haidua{
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-around;
+}
